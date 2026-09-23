@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Роман | Бэкенд-архитектор</title>
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+    <!-- 1. ИНТРО-ЗОНА (Парящая визитка со стеком технологий внутри) -->
+    <header class="intro-container">
+        <div class="main-card">
+            <div class="card-glow"></div>
+            <div class="card-content">
+                <span class="status-badge">● Разработка систем</span>
+                <h1>Роман</h1>
+                <p class="subtitle">Python / FastAPI Бэкенд-инженер</p>
+                <p class="bio">Проектирую изолированные инфраструктуры данных, автоматизирую процессы и внедряю ИИ-решения.</p>
+                
+                <!-- ПЕРЕНЕСЕННЫЙ СТЕК: теперь он аккуратно живет в визитке -->
+                <div class="main-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">FastAPI</span>
+                    <span class="tech-tag">Asyncio</span>
+                    <span class="tech-tag">Docker</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                    <span class="tech-tag">PyTorch</span>
+                </div>
+
+                <div class="cta-group">
+                    <a href="https://t.me/RuKotikO" target="_blank" class="btn btn-tg">
+                        <i class="fab fa-telegram"></i> Telegram
+                    </a>
+                    <a href="https://github.com/RuKotikO?tab=repositories" target="_blank" class="btn btn-github">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. СВЕТЯЩИЙСЯ МОСТ (Полукруглая неоновая линия) -->
+    <div class="neon-divider-wrapper">
+        <svg class="neon-curve" viewBox="0 0 1440 120" preserveAspectRatio="none">
+            <path d="M0,0 Q720,120 1440,0" fill="none" stroke="var(--neon-primary)" stroke-width="4"></path>
+        </svg>
+    </div>
+
+    <!-- 3. БЕНТО-ЛАБОРАТОРИЯ (Симметричная сетка без пустот) -->
+    <main class="lab-container">
+        <div class="bento-grid">
+            
+            <!-- Блок 1: Сервис электронной подписи (5 колонок) -->
+            <section class="bento-item crypto-service">
+                <div class="tech-icon"><i class="fas fa-key"></i></div>
+                <h2>Криптография & Безопасность</h2>
+                <p class="project-desc">Асинхронный бэкенд-сервис электронной подписи. Реализация RSA-шифрования, генерация ключевых пар и строгая верификация хэшей файлов.</p>
+                <div class="dev-log">
+                    <span class="log-status in-progress">[IN PROGRESS]</span>
+                    <span class="log-text">API payload validation & key-rotations</span>
+                </div>
+            </section>
+
+            <!-- Блок 2: Центральный сервис баз данных (7 колонок) -->
+            <section class="bento-item db-service">
+                <div class="tech-icon"><i class="fas fa-database"></i></div>
+                <h2>Core DB Infrastructure</h2>
+                <p class="project-desc">Изолированный сервис баз данных (Single Source of Truth) для всей экосистемы пет-проектов. Централизованное кэширование и автоматические бэкапы.</p>
+                <div class="dev-log">
+                    <span class="log-status done">[DONE]</span>
+                    <span class="log-text">PostgreSQL + Redis connection pool optimized</span>
+                </div>
+            </section>
+
+            <!-- Блок 3: Автоматизация фриланса (6 колонок — РОВНО ПОЛОВИНА РЯДА) -->
+            <section class="bento-item freelance-hub">
+                <div class="tech-icon"><i class="fas fa-robot"></i></div>
+                <h2>Freelance Monitoring</h2>
+                <p class="project-desc">Асинхронная сеть парсеров фриланс-платформ. Автоматический мониторинг тасок в реальном времени и мгновенный роутинг лидов через Telegram API.</p>
+                
+                <!-- Расширенное окно консоли логов для заполнения пустоты -->
+                <div class="dev-log terminal-box">
+                    <div class="terminal-line"><span class="t-date">[14:22:01]</span> Connecting to FL.ru... OK</div>
+                    <div class="terminal-line"><span class="t-date">[14:22:03]</span> Found 12 new orders, filtering...</div>
+                    <div class="terminal-line"><span class="log-status done">[DONE]</span> <span class="log-text">2 relevant leads sent to Telegram</span></div>
+                </div>
+            </section>
+
+            <!-- Блок 4: ИИ для капчи (6 колонок — ВТОРАЯ ПОЛОВИНА РЯДА) -->
+            <section class="bento-item captcha-ai">
+                <div class="tech-icon"><i class="fas fa-brain"></i></div>
+                <h2>Captcha AI Microservice</h2>
+                <p class="project-desc">Сверточная нейросеть (CNN) для распознавания графических капч. Изолированный высокопроизводительный ИИ-модуль с доступом через REST API.</p>
+                
+                <!-- Технические метрики ИИ для заполнения пустоты -->
+                <div class="ai-metrics">
+                    <div class="metric-item"><span>Model:</span> <strong>CNN-ResNet18</strong></div>
+                    <div class="metric-item"><span>Inference:</span> <strong>23ms</strong></div>
+                </div>
+                
+                <div class="dev-log">
+                    <span class="log-status in-progress">[IN PROGRESS]</span>
+                    <span class="log-text">CNN accuracy fine-tuning: 98.6%</span>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <script src="static/js/main.js"></script>
+</body>
+</html>
