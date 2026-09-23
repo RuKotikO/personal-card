@@ -182,10 +182,26 @@ body::before {
     .bento-grid {
         grid-template-columns: 1fr;
     }
-    .crypto-service, .db-service, .freelance-hub, .captcha-ai {
+    .crypto-service, 
+    .db-service, 
+    .freelance-hub, 
+    .captcha-ai { 
         grid-column: span 12;
     }
+    .ai-metrics {
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .main-card {
+        padding: 30px 20px;
+    }
+    
+    .main-card h1 {
+        font-size: 2rem;
+    }
 }
+
 
 /* Кнопки */
 .cta-group {
